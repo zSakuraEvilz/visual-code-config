@@ -1,0 +1,29 @@
+{
+    "files.eol": "\n",
+    "files.autoSave": "onFocusChange",
+    "editor.renderWhitespace": "all",
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": false,
+    "workbench.iconTheme": "vscode-icons",
+    "eslint.autoFixOnSave": true,
+    "eslint.packageManager": "yarn",
+    "eslint.validate": [
+    {
+        "language": "vue",
+        "autoFix": true
+    },
+    {
+        "language": "javascript",
+        "autoFix": true
+    },
+    {
+        "language": "javascriptreact",
+        "autoFix": true
+    }
+    ],
+    "vetur.validation.template": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+}
